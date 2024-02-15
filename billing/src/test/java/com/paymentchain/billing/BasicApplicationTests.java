@@ -12,13 +12,19 @@ public class BasicApplicationTests {
  
  @Test
  public void contextLoads() {
- 	    String meessage= "default message cambio test devops";
+ 	    String meessage= "default message cambio test devops se cambio desde feature";
  	    Assert.assertNotNull(meessage);
  }
 
  @Test
  public void contextLoads2() {
- 	    String meessage= "se agrega segundo test de prueba";
+ 	    String meessage= "se agrega segundo test de prueba se cambio desde feature";
+ 	    Assert.assertNotNull(meessage);
+ }
+
+ @Test
+ public void contextLoads3() {
+ 	    String meessage= "se agrega segundo test de prueba se cambio desde feature";
  	    Assert.assertNotNull(meessage);
  }
  
